@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="LTS hour>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Taco Shop Work Hours</title>
+    <style>
+        *{
+            box-sizing: :border-box;
+        }
+        i{
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            margin-bottom: -5px;
+        }
+        i.about{
+            background-position: top 0 left 0;
+        }
+        i.menus{
+            background-position: top 0 left -30px;
+        }
+        i.hours{
+            background-position: top 0 left -60px;
+        }
+        i.contact{
+            background-position: top 0 left -90px;
+        }
+        .dd{
+            position: relative;
+            display: inline-block;
+        }
+        .dd-btn{
+            padding: 15px;
+            text-align: left;
+            background: blue;
+            border: none;
+            width: 100px;
+            color: yellow;
+        }
+        .dd-content{
+            position: relative;
+            width: 100%;
+            height: 0px;
+            transition: width 1s;
+            background-color: yellow;
+            overflow: hidden;
+            box-shadow: 0 18 36px rgba(0,0,0,0.30), 0 14px 11p
+        }
+        .dd:hover .dd-content{
+            height: 350px;
+        }
+        .dd-content > a{
+            display: block;
+            height: 60px;
+            padding: 15px;
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Little Taco Shop Hours</h1>
+    <div class="dd">
+        <button class="dd-btn">menu </button>
+        <div class="dd-content">
+                        <a href="HOME.html"> <i class="Home">HOME</i> </a>
+                        <a href="#About"><i class="about">ABOUT   <abbr title=" 
+            Little Taco Shop">LTW</abbr></i></a>
+                        <a href="#Our Menu"> <i class="menus">OUR MENU</i> </a>
+                        <a href="contactus.html"><i class="contact">CONTACT US</i>  </a>
+                        
+        </div>
+    </div>
+    <figure>
+    <img src="Screenshot 2023-10-20 at 09.37.49.png" alt="A Tray of Tasty Tacos" width="400" height="267" title="love tacos">
+    <br><figcaption>A Tray of Tasty Tacos</figcaption>
+</figure>
+</header>
+    <hr>
+    <main>
+    <p>We are open 7 days a week!</p>
+    
+    <dl>
+        <dt>sunday-thursday</dt>
+        <dd>11am-9pm</dd>
+        <dt>Friday-Saturday</dt>
+        <dd>11am-11pm</dd>
+        <a href="#">Back to Top</a>
+    </dl>
+</main>
+    <hr>
+    <footer>
+    <p>Copyright &copy; The Little Taco Shop</p>
+</footer>
+</body>
+</html>

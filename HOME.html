@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Usa lucky">
+    <meta name="description" content="The offical website for The Little Taco Shop">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Taco Shop</title>
+    <link rel="stylesheet" href="assit.css">
+    <link rel="shortcut icon" href="Screenshot 2023-10-20 at 07.48.47.png" type="image/png">
+    <style>
+        *{
+            box-sizing: :border-box;
+        }
+        i{
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            margin-bottom: -5px;
+        }
+        i.about{
+            background-position: top 0 left 0;
+        }
+        i.menus{
+            background-position: top 0 left -30px;
+        }
+        i.hours{
+            background-position: top 0 left -60px;
+        }
+        i.contact{
+            background-position: top 0 left -90px;
+        }
+        .dd{
+            position: relative;
+            display: inline-block;
+        }
+        .dd-btn{
+            padding: 15px;
+            text-align: left;
+            background: blue;
+            border: none;
+            width: 100px;
+            color: yellow;
+        }
+        .dd-content{
+            position: relative;
+            width: 100%;
+            height: 0px;
+            transition: height 1s;
+            background-color: yellow;
+            overflow: hidden;
+            box-shadow: 0 18 36px rgba(0,0,0,0.30), 0 14px 11px rgba(0,0,0,0.22);
+        }
+        .dd:hover .dd-content{
+            height: 350px;
+        }
+        .dd-content >a{
+            display : block;
+            height: 60px;
+            padding: 15px;
+            text-decoration: none;
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Welcome to The Little Taco Shop</h1>
+    <div class="dd">
+        <button class="dd-btn">menu </button>
+        <div class="dd-content">
+                        <a href="#About"><i class="about">About </i> <abbr title=" 
+            Little Taco Shop">LTW</abbr></a>
+                        <a href="#Our Menu"> <i class="menus">Our Menu</i> </a>
+                        <a href="storehours.html"><i class="hours">Store Hours</i>  </a>
+                        <a href="contactus.html"> <i class="contact">Contact Us</i> </a>
+        </div>
+    </div>
+
+    <figure><img src="Screenshot 2023-10-20 at 07.48.47.png" alt="tacos and drinks" width="400" height="267" ><figcaption>Tacos and a Drinks</figcaption></figure>
+</header>
+    <hr>
+    <section id="About">
+        <h2>About <abbr title="Little Taco Shop">LTS</abbr></h2>
+        
+    <p>
+        <abbr title="Little Taco Shop">LTS</abbr> was founded in <time datetime="2022"> 2023</time> Our shop was built from a <strong>love of tacos</strong>🌮🌮🌮🌮🌮. We hope our shop adds a unique and interesting place to our little town.
+    </p>
+    <h2>Taco Traiva</h2>
+    <aside>
+        <details>
+           <summary>When did tacos first appear in the United State</summary>
+           <p>
+            Jeffrey M. Pilcher, taco historian and professor of history at the university of Minnesta, says the earliest mention of tacos  in a newspaper from <time datetime="1903"> 1903</time>.(source: <cite><a href="http://www.smithsonianmag.com/art-culture/where-did-the-taco-come-from-81228162/" target="_blank">smithsonian Magazines</a>)
+           </p>
+        </details>
+    </aside>
+    </section>
+    <hr>
+    <section id="Our Menu">
+    <h2>Our Menu</h2>
+    <table>
+        <caption>Our Tacos</caption>
+        <thead>
+        <tr>
+            <th scope="col"> Tacos </th>
+            <th scope="col"><abbr title="Quantity">Qty</abbr></th>
+            <th scope="col">Price</th>
+        </tr></thead>
+        <tbody>
+        <tr>
+            <th scope="row" rowspan="3">Crunchy</th>
+            <td>
+                1
+            </td>
+            <td>$1.50</td>
+        </tr>
+        <tr>
+            <td>
+               2
+            </td>
+            <td>$2.50</td>
+        </tr>
+        <tr>
+        
+            <td>
+               3
+            </td>
+            <td>$3.25</td>
+        </tr>
+            <th scope="row" rowspan="3">Soft</th><td>1</td>
+            <td>$2.00</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>$3.50</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>$4.50</td>
+        </tr>    
+    </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Chip &amp; Salsa $2 </td>
+            </tr>
+        </tfoot>
+     </table></section>
+     <br>
+     <a href="#">Back to Top</a>
+     <hr>
+     <footer>
+     <p>copyright &copy; The Little Taco Shop </p>
+    </footer>
+</body>
+</html>
